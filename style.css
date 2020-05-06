@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 50px;
+}
+
+p {
+  font-size: 2em;
+}
+
+main {
+  height: 50vh;
+}
+
+main .menu {
+  background-color: cornsilk;
+  width: 100vh;
+  height: 100%;
+  border: 2px solid black;
+  -webkit-box-shadow: 3px 3px 10px 10px;
+          box-shadow: 3px 3px 10px 10px;
+  margin: 0 auto;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 80%;
+          flex: 0 0 80%;
+}
+
+main h3 {
+  padding-top: 10px;
+  font-size: 2rem;
+  margin-bottom: 10%;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+main ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2 rem;
+}
+
+main ul li {
+  list-style-type: none;
+  line-height: 2rem;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+main .list .functions {
+  margin: 15% auto;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+main .functions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+button {
+  margin: 0.5rem 2rem;
+  width: 30%;
+  border-radius: 10%;
+  border: none;
+  font-size: 2rem;
+  background-color: rgba(55, 105, 20, 0.6);
+  color: white;
+  outline: none;
+}
+
+button:hover {
+  color: red;
+  opacity: 0.8;
+}
+
+input {
+  margin: 0.5rem 2rem;
+  width: 30%;
+  height: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+/*# sourceMappingURL=style.css.map */
