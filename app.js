@@ -25,7 +25,8 @@ add.addEventListener("click", function () {
 });
 
 remove.addEventListener("click", function () {
+    array.pop();
   list.removeChild(list.childNodes[0]);
 
-  array.pop();
+
 });
